@@ -1,11 +1,6 @@
 import Image from "next/image";
-import { Icon } from "./components/common/icon";
-import UserIndex from "./(user)";
+import { Icon } from "./components/icon";
 
 export default function Home() {
-  return (
-    <div>
-      <UserIndex />
-    </div>
-  );
+  return <div className="w-full">Hello</div>;
 }
